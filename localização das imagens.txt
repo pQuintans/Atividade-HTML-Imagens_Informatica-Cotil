@@ -1,0 +1,7 @@
+Imagens com link:
+  2 na página inicial (index.html)
+
+Imagens ilustrativas:
+  1 na página de contato (/pages/contato.html)
+  1 na página sobre o curso de informática (/pages/informatica.html)
+  1 na página sobre o curso de enfermagem (/pages/enfermagem.html)

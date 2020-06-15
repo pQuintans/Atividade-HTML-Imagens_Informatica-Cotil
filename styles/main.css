@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body {
+  background-color: #919b6fb7;
+  background-size: auto 100vh;
+  height: 100vh;
+  color: black;
+} 
+
+h1 {
+  padding-bottom: 0.5em;
+}
+
+p {
+  font-size: 20px;
+} 
+
+.header {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  background-color: white;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  z-index: 1;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu a {
+  display: 	block;
+  padding: 10px 20px;
+  transition: background-color 1s, color 1s;
+}
+
+.menu a:hover {
+  text-decoration: none;
+  background-color: teal;
+  color: white;
+}
+
+a {
+  color: teal;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.page-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.images {
+  display: inherit;
+}
+
+.images img {
+  height: 150px;
+  padding: 2em;
+}
+
+.images-2 img {
+  height: 200px;
+  padding: 2em;
+}
+.images-enfermagem img {
+  height: 300px;
+  padding: 2em;
+}
